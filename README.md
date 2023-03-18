@@ -2,6 +2,31 @@
 
 # ModSecurity (+DVWA) Research Lab
 
+
+Table of Contents
+=================
+
+* [ModSecurity (+DVWA) Research Lab](#modsecurity-dvwa-research-lab)
+   * [0. Environment/Pre-installing](#0-environmentpre-installing)
+   * [1. DVWA Intro](#1-dvwa-intro)
+   * [2. DVWA basic Set up (Manual)](#2-dvwa-basic-set-up-manual)
+      * [2.1 Build DVWA Apache website:](#21-build-dvwa-apache-website)
+      * [2.2 Create DVWA user in local database:](#22-create-dvwa-user-in-local-database)
+      * [2.3 (Optional) Completed install remaining component:](#23-optional-completed-install-remaining-component)
+   * [3. WAF Intro (ModSecurity)](#3-waf-intro-modsecurity)
+   * [4. Feature &amp; Deployment selection:](#4-feature--deployment-selection)
+   * [5. WAF installation (Manual)](#5-waf-installation-manual)
+      * [Install ModSecurity](#install-modsecurity)
+      * [Pre-configuring](#pre-configuring)
+      * [Setting Up <a href="https://github.com/coreruleset/coreruleset">the OWASP ModSecurity Core Rule Set</a> (Official repo).](#setting-up-the-owasp-modsecurity-core-rule-set-official-repo)
+      * [Enabling ModSecurity in Apache 2](#enabling-modsecurity-in-apache-2)
+      * [Testing ModSecurity](#testing-modsecurity)
+   * [6. ModSecurity Rule Research](#6-modsecurity-rule-research)
+   * [7. (Bonus) Everything-as-scripts](#7-bonus-everything-as-scripts)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
+
 ## 0. Environment/Pre-installing
 
 | Category        | Specs                        |
