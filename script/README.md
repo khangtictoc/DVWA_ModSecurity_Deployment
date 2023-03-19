@@ -6,6 +6,8 @@ Here are some information when ultilizing these scripts.
 
 > Important: All the scripts need to run as `root` privileges 
 
+> Tested on Kali Linux 2023.1
+
 ## `setup-php8.2-environment.sh` (Optional)
 
 If your PHP version is not support `php-gd`, you may need a latter version. This script will ask you to indicate the **old PHP version** (for removing) and **new PHP version** (for installing), I suggest that the new one should be `8.2` (the latest at this time) and the old one is your choice. 
