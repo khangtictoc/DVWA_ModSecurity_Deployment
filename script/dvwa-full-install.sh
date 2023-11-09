@@ -43,8 +43,8 @@ fi
 
 ## Creating DB
 
+sudo apt install mysql-server
 sudo service mysql start
-sudo service mariadb start
 
 sudo mysql -u root -p << EOF
 
@@ -69,8 +69,6 @@ sudo apt install php$php_version-gd
 sudo chown www-data -R /var/www/html/DVWA/hackable/uploads/
 sudo chown www-data -R /var/www/html/DVWA/config
 
-
-sudo apt install php$php_version-gd
 sudo service apache2 restart
 
 open http://127.0.0.1/DVWA/setup.php
