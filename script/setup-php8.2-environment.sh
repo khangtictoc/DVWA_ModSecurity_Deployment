@@ -15,9 +15,8 @@ sudo apt update
 
 # Expand the curly braces with all extensions necessary.
 sudo apt install binutils
-sudo apt install php$php_v_new php$php_v_new-cli php$php_v_new-{bz2,curl,mbstring,intl}
+sudo apt install php$php_v_new php$php_v_new-cli php$php_v_new-{bz2,curl,mbstring,intl,mysql,fpm} -y
 
-sudo apt install php8.2-fpm
 # OR
 # sudo apt install libapache2-mod-php$php_v_new
 
